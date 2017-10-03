@@ -1,0 +1,24 @@
+{
+  "socialShares": [{
+    "url": "#",
+    "image": {
+      "class":"social-share-image fb",
+      "alt": "FB",
+      "path": "facebook-image.jpg"
+    }
+  },{
+    "url": "#",
+    "image": {
+      "class":"social-share-image tw",
+      "alt": "TW",
+      "path": "twitter-image.jpg"
+    }
+  },{
+    "url": "#",
+    "image": {
+      "class":"social-share-image in",
+      "alt": "IN",
+      "path": "instagram-image.jpg"
+    }
+  }]
+}

@@ -1,0 +1,30 @@
+{
+  "col1":{
+    "dir": "/path/to/images",
+    "clients": [{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    },{
+      "url": "url1.jpg"
+    }]
+  }
+}

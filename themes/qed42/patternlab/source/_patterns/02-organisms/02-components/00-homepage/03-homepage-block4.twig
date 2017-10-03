@@ -1,0 +1,11 @@
+{% extends "organisms-panel-2col-5-0" %}
+{% set panel_class = 'our-clients full-height' %}
+{% block col1 %}
+  <div class="clients-logo__wrapper">
+  {% for client in clients %}
+    <div class="clients-logo">
+     <img src="{{col1.dir}}/{{col1.client.url}}" alt="">
+    </div>
+  {% endfor %}
+  </div>
+{% endblock %}

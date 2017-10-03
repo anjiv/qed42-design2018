@@ -1,0 +1,10 @@
+{
+  "copyrightText": "Made with <span class='red'>&#9829;</span> using Drupal",
+  "contactNumber": "+91 231 123 2331",
+  "emailLink": {
+    "url": "mailto:dipen@qed42.com",
+    "title": "Email Us",
+    "class": "email-link",
+    "text": "dipen@qed42.com"
+  }
+}

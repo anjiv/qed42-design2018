@@ -1,0 +1,7 @@
+<div class="social-share">
+	<ul class="social-share-list">
+    {% for socialShare in socialShares %}
+		  <li><a href="{{ socialShare.url }}">{% include 'atoms-image' with socialShare.image %}</a></li>
+    {% endfor %}
+	</ul>
+</div>

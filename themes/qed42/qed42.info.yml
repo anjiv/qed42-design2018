@@ -1,0 +1,25 @@
+name: qed42
+type: theme
+base theme: classy
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+
+regions:
+  header: Header
+  menu: Menu
+  page_top: 'Page top'
+  sidebar: Sidebar
+  content: Content
+  page_bottom: 'Page bottom'
+  footer: 'Footer'
+
+libraries:
+  - qed42/global-styling
+
+component-libraries:
+  qed42Lib:
+    paths:
+      - patternlab/source/_patterns
+
+core: '8.x'
+project: 'drupal'
+datestamp: 1493834648

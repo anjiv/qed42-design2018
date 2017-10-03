@@ -1,0 +1,4 @@
+vendor
+sites/*/settings*.php
+sites/*/services*.yml
+sites/*/files
