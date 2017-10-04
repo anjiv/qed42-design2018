@@ -1,0 +1,25 @@
+{
+  "title": "Upload Experience",
+  "content": "To make sure there is a balance between adequate data captured and usability of forms, we conducted rigorous content structuring exercise vetted by field stakeholders. Also upload form UX / UI was given prominence.",
+  "headline": "What would you like to upload?",
+  "link1": {
+    "path": "engagement.jpg",
+    "class": "engagement-apf",
+    "alt": "apf-image4"
+  },
+  "link2": {
+    "path": "report.jpg",
+    "class": "report-apf",
+    "alt": "apf-image5"
+  },
+  "link3": {
+    "path": "resource.jpg",
+    "class": "resource-apf",
+    "alt": "apf-image6"
+  },
+  "link4": {
+    "path": "reflection.jpg",
+    "class": "reflection-apf",
+    "alt": "apf-image7"
+  }
+}

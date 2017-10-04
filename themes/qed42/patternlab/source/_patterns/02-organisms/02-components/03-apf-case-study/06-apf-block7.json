@@ -1,0 +1,7 @@
+{
+  "title": "Performance as the key UX Metric",
+  "content": "100% of traffic on the site is authenticated traffic and performance is critical for success of a portal like this, we achieved performance goals by:",
+  "subcontent1": "Optimizing content structure and respectively the associated views",
+  "subcontent2": "Frontend Performance: Optimising Images, CSS Rendering and JS optimisations",
+  "subcontent3": "Memcache for Views / Session and Data caching"
+}

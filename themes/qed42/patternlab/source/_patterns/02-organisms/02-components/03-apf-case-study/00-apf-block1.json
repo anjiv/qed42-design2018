@@ -1,0 +1,14 @@
+{
+  "col1": {
+    "path": "mob-lap.jpg",
+    "class": "mob-lap-apf",
+    "alt": "apf-image1"
+  },
+  "col2": {
+    "content": "Azim Premji Foundation (APF) is a leading not-for profit organisation that has been working for more than a decade now towards making deep, large scale and institutionalised impact on the quality and equity of education in India, along with related development areas.",
+    "intranetLink": {
+      "text": "Intranet Strategy, Design, Drupal 8",
+      "title": "intranet-link"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "drupal": {
+    "path": "drupal.jpg",
+    "class": "drupal-apf",
+    "alt": "apf-image9"
+  },
+  "amazon": {
+    "path": "amazon.jpg",
+    "class": "amazon-apf",
+    "alt": "apf-image10"
+  },
+  "content": "<strong>Building on top of Drupal 8 is already proving to be a great decision; fetching great feedback from field stakeholders on CMS capabilities and quicker roadmap to bring next set of features on the portal.</strong>",
+  "title": "Key Open source contributions",
+  "subtitle": "Patch submitted to following modules"
+}

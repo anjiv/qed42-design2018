@@ -1,0 +1,11 @@
+{
+  "col1": {
+    "title": "Mobile First Approach",
+    "content": "Most user’s primary device was smartphone and in many case the only device, It was clear from the start that Mobile first approach to Design and development is the only way forward. Given we were designing for a constrained real estate, it helped us immensely to remove clutter leading to better performance and user experience."
+  },
+  "col2": {
+    "path": "mobile-first-approach.jpg",
+    "class": "mobile-first-approach-apf",
+    "alt": "apf-image8"
+  }
+}

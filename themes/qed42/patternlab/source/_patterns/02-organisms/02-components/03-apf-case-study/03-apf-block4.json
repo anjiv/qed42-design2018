@@ -1,0 +1,16 @@
+{
+  "col1": {
+    "path": "dashboard-experience.jpg",
+    "class": "dashboard-experience-apf",
+    "alt": "apf-image3"
+  },
+  "col2": {
+    "title": "Dashboard Experience",
+    "content": "To tackle information overload, a location sensitive dashboard acts as a user’s home screen showing content ( reports / resources etc ) only relevant to user’s location, though a user in leadership role can change the location and zoom to country level to see what’s happening in the APF universe."
+  },
+  "image": {
+    "path": "design-thinking.jpg",
+    "class": "design-thinking-apf",
+    "alt": "apf-image2"
+  }
+}

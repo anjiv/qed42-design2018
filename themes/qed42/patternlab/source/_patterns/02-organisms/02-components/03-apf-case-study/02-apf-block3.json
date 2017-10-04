@@ -1,0 +1,11 @@
+{
+  "col1": {
+    "title": "Design Thinking",
+    "content": "Portal’s primary users are field executives, who typically are not used to Digital way of doing things. Often overloaded with field work, we were cautious to make sure that portal didn’t feel like another thing to do or worse a hassle. It was important that the portal gets their buy in and they understand its utility, we employed design thinking process to understand user personas to come up with constraints and success criterias for the project. The process helped us to fine tune the backlog and visualise how features should work. "
+  },
+  "col2": {
+    "path": "design-thinking.jpg",
+    "class": "design-thinking-apf",
+    "alt": "apf-image2"
+  }
+}
