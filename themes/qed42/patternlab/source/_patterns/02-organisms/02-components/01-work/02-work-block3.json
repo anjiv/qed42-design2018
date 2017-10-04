@@ -1,0 +1,11 @@
+{
+  "col1": {
+    "title": "Helping authors publish their research",
+    "content": "We worked with Cactus Global to build their content platform ground up in 3 east Asian languages and English. Editage insights has graduated from a community experiment to a major source of leads.",
+    "link": "VIEW CASE STUDY"
+  },
+  "col2": {
+    "dir": "/path/to/images",
+    "url": "laptop.jpg"
+  }
+}

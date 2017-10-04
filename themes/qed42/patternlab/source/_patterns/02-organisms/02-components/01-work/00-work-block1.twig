@@ -1,0 +1,10 @@
+{% extends "organisms-panel-2col-5-5" %}
+{% set panel_class = 'us-election full-height' %}
+{% block col1 %}
+  <h3>{{col1.title}}</h3>
+  <p>{{col1.content}}</p>
+  <a href="#">{{col1.link}}</a>
+{% endblock %}
+{% block col2 %}
+  <img src="{{col2.dir}}/{{col2.url}}" alt="">
+{% endblock %}

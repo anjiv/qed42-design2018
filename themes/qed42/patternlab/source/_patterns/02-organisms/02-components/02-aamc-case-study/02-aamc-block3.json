@@ -1,0 +1,9 @@
+{
+  "dir": "/path/to/images",
+  "col1": {
+    "url": "logo1.jpg"
+  },
+  "col2": {
+    "url": "logo2.jpg"
+  }
+}

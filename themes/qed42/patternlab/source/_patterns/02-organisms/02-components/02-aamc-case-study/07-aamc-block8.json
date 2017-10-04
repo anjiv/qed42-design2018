@@ -1,0 +1,12 @@
+{
+  "title": "Other Recent Projects",
+  "dir": "/path/to/images",
+  "col1": {
+    "url": "aamc-mobile.jpg",
+    "title": "Built Platform for US Election Campaigns"
+  },
+  "col2": {
+    "url": "aamc-laptop.jpg",
+    "title": "Helping authors publish their research"
+  }
+}

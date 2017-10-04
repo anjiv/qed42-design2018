@@ -1,0 +1,9 @@
+{% extends "organisms-panel-2col-5-5" %}
+{% set panel_class = 'countless-pixels full-height' %}
+{% block col1 %}
+  <h3>{{col1.title}}</h3>
+  <p>{{col1.content}}</p>
+{% endblock %}
+{% block col2 %}
+  {% include 'molecules-our-clients' %}
+{% endblock %}

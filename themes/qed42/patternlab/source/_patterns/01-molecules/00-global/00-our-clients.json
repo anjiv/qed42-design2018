@@ -1,0 +1,28 @@
+{
+    "dir": "/path/to/images",
+    "clients": [{
+      "url": "url1.jpg"
+    },{
+      "url": "url2.jpg"
+    },{
+      "url": "url3.jpg"
+    },{
+      "url": "url4.jpg"
+    },{
+      "url": "url5.jpg"
+    },{
+      "url": "url6.jpg"
+    },{
+      "url": "url7.jpg"
+    },{
+      "url": "url8.jpg"
+    },{
+      "url": "url9.jpg"
+    },{
+      "url": "url10.jpg"
+    },{
+      "url": "url11.jpg"
+    },{
+      "url": "url12.jpg"
+    }]
+}

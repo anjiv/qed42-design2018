@@ -1,0 +1,27 @@
+{
+  "col1": {
+    "numbers": "02",
+    "title": "Iconography",
+    "content": "Special icons were designed to explain the work flow of Mohalla Clinic."
+  },
+  "col2": {
+    "dir": "/path/to/images",
+    "icons": [{
+      "url": "iconography1.jpg"
+    },{
+      "url": "iconography2.jpg"
+    },{
+      "url": "iconography3.jpg"
+    },{
+      "url": "iconography4.jpg"
+    },{
+      "url": "iconography5.jpg"
+    },{
+      "url": "iconography6.jpg"
+    },{
+      "url": "iconography7.jpg"
+    },{
+      "url": "iconography8.jpg"
+    }]
+  }
+}
