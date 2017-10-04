@@ -1,4 +1,5 @@
 {
-  "dir": "/path/to/images",
-  "url": "aamc-homepage-screenshot.jpg"
+  "path": "aamc-homepage-screenshot.jpg",
+  "class": "screenshot1-aamc",
+  "alt": "aamc-image12"
 }

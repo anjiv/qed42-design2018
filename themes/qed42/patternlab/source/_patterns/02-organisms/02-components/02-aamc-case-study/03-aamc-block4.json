@@ -4,24 +4,37 @@
     "title": "Iconography",
     "content": "Special icons were designed to explain the work flow of Mohalla Clinic."
   },
-  "col2": {
-    "dir": "/path/to/images",
     "icons": [{
-      "url": "iconography1.jpg"
+      "path": "iconography1.jpg",
+      "class": "ico1-aamc",
+      "alt": "aamc-image4"
     },{
-      "url": "iconography2.jpg"
+      "path": "iconography2.jpg",
+      "class": "ico2-aamc",
+      "alt": "aamc-image5"
     },{
-      "url": "iconography3.jpg"
+      "path": "iconography3.jpg",
+      "class": "ico3-aamc",
+      "alt": "aamc-image6"
     },{
-      "url": "iconography4.jpg"
+      "path": "iconography4.jpg",
+      "class": "ico4-aamc",
+      "alt": "aamc-image7"
     },{
-      "url": "iconography5.jpg"
+      "path": "iconography5.jpg",
+      "class": "ico5-aamc",
+      "alt": "aamc-image8"
     },{
-      "url": "iconography6.jpg"
+      "path": "iconography6.jpg",
+      "class": "ico6-aamc",
+      "alt": "aamc-image9"
     },{
-      "url": "iconography7.jpg"
+      "path": "iconography7.jpg",
+      "class": "ico7-aamc",
+      "alt": "aamc-image10"
     },{
-      "url": "iconography8.jpg"
+      "path": "iconography8.jpg",
+      "class": "ico8-aamc",
+      "alt": "aamc-image11"
     }]
-  }
 }

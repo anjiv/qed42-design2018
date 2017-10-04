@@ -1,7 +1,8 @@
 {
   "col1": {
-    "dir": "/path/to/image",
-    "url": "mobile.jpg"
+    "path": "mobile.jpg",
+    "class": "mobile-aamc",
+    "alt": "aamc-image1"
   },
   "col2": {
     "title": "Complete design language for Aam Aadmi Mohalla Clinic"

@@ -3,8 +3,8 @@
 {% block col1 %}
   <h3>{{col1.title}}</h3>
   <p>{{col1.content}}</p>
-  <a href="#">{{col1.link}}</a>
+  {% include 'atoms-link' with col1.viewLink %}
 {% endblock %}
 {% block col2 %}
-  <img src="{{col2.dir}}/{{col2.url}}" alt="">
+  {% include 'atoms-image' with col2 %}
 {% endblock %}

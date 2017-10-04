@@ -1,6 +1,8 @@
 {
   "col1":{
     "title": "Countless Pixels Delivered",
-    "link": "Happy Clients"
+    "clients": {
+      "text": "Happy Clients"
+    }
   }
 }

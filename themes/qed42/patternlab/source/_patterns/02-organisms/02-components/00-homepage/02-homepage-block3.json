@@ -2,17 +2,23 @@
   "col1": {
     "title": "Complete Design language for Aam Aadmi Mohalla Clinic",
     "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit,",
-    "link": "VIEW CASE STUDY"
+    "viewLink": {
+      "text": "VIEW CASE STUDY"
+    }
   },
   "col2": {
     "title": "Design Thinking",
     "content": "A great Digital strategy requires Design thinking as the core guiding principle for its execution. Great Design improves conversions, brand perception, satisfaction and trust among your users. We have helped several companies build delightful user experiences.",
-    "link": "Check out our Design Approach!"
+    "check": {
+      "text": "Check out our Design Approach!"
+    }
   },
   "col3": {
     "title": "Enhanced 7 SAB Miller brands using Design & Drupal",
     "content": "RADEGAST was one of the SAB projects where-in we took care of everything from design inception to delivery.",
-    "link": "VIEW CASE STUDY"
+    "viewLink": {
+      "text": "VIEW CASE STUDY"
+    }
   }
 }
 

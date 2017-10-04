@@ -1,7 +1,7 @@
 {% extends "organisms-panel-2col-6-4" %}
 {% set panel_class = 'aam-aadmi-mohalla-clinic full-height' %}
 {% block col1 %}
-  <img src="{{dir}}/{{col1.url}}" alt="">
+  {% include 'atoms-image' with col1 %}
 {% endblock %}
 {% block col2 %}
   <h3>{{col2.title}}</h3>

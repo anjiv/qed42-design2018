@@ -2,5 +2,5 @@
 {% set panel_class = 'happy-clients full-height' %}
 {% block col1 %}
   <h3>{{col1.title}}</h3>
-  <a href="#">{{col1.link}}</a>
+  {% include 'atoms-link' with col1.clients %}
 {% endblock %}

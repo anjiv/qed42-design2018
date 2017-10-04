@@ -1,28 +1,51 @@
 {
-    "dir": "/path/to/images",
     "clients": [{
-      "url": "url1.jpg"
+      "path": "url1.jpg",
+      "class": "client-logo",
+      "alt": "client-image1"
     },{
-      "url": "url2.jpg"
+      "path": "url2.jpg",
+      "class": "client-logo",
+      "alt": "client-image2"
     },{
-      "url": "url3.jpg"
+      "path": "url3.jpg",
+      "class": "client-logo",
+      "alt": "client-image3"
     },{
-      "url": "url4.jpg"
+      "path": "url4.jpg",
+      "class": "client-logo",
+      "alt": "client-image4"
     },{
-      "url": "url5.jpg"
+      "path": "url5.jpg",
+      "class": "client-logo",
+      "alt": "client-image5"
     },{
-      "url": "url6.jpg"
+      "path": "url6.jpg",
+      "class": "client-logo",
+      "alt": "client-image6"
     },{
-      "url": "url7.jpg"
+      "path": "url7.jpg",
+      "class": "client-logo",
+      "alt": "client-image7"
     },{
-      "url": "url8.jpg"
+      "path": "url8.jpg",
+      "class": "client-logo",
+      "alt": "client-image8"
     },{
-      "url": "url9.jpg"
+      "path": "url9.jpg",
+      "class": "client-logo",
+      "alt": "client-image9"
     },{
-      "url": "url10.jpg"
+      "path": "url10.jpg",
+      "class": "client-logo",
+      "alt": "client-image10"
     },{
-      "url": "url11.jpg"
+      "path": "url11.jpg",
+      "class": "client-logo",
+      "alt": "client-image11"
     },{
-      "url": "url12.jpg"
+      "path": "url12.jpg",
+      "class": "client-logo",
+      "alt": "client-image12"
     }]
 }

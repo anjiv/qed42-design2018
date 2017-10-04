@@ -1,9 +1,12 @@
 {
-  "dir": "/path/to/images",
   "col1": {
-    "url": "logo1.jpg"
+    "path": "logo1.jpg",
+    "class": "logo1-aamc",
+    "alt": "aamc-image2"
   },
   "col2": {
-    "url": "logo2.jpg"
+    "path": "logo2.jpg",
+    "class": "logo2-aamc",
+    "alt": "aamc-image3"
   }
 }

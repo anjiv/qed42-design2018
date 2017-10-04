@@ -8,7 +8,7 @@
 {% block col2 %}
   {% for ico in icons %}
     <div class="iconography-images">
-      <img src="{{dir}}/{{ico.url}}" alt="">
+      {% include 'atoms-image' with ico %}
    </div>
  {% endfor %}
 {% endblock %}
