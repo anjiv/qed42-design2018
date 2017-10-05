@@ -2,3 +2,7 @@ vendor
 sites/*/settings*.php
 sites/*/services*.yml
 sites/*/files
+node_modules/
+**/patternlab/export/*
+**/patternlab/public/*
+**/patternlab/source/styleguide/*
