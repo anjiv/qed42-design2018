@@ -41,7 +41,10 @@ gulp.task('sass:patternlab', function () {
       cascade: false
     }))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('patternlab/source/css'));
+    .pipe(gulp.dest('patternlab/source/css'))
+    .on('end', function() {
+      gulp.run('patternlab:generate');
+    });
 });
 
 /* Gulp task to generate patterns in patternlab. */
@@ -60,7 +63,7 @@ gulp.task('patternlab:generate', function () {
 
 gulp.task('watch:sass', function () {
   gulp.watch('sass/**/**', ['sass:main']);
-  gulp.watch('patternlab/source/**/**.scss', ['sass:patternlab']);
+  gulp.watch(['patternlab/source/**/**.scss'], ['sass:patternlab']);
 });
 
 /* Gulp task to watch patterns generated in
