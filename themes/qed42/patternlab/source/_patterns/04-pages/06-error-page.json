@@ -1,0 +1,16 @@
+{
+  "col1": {
+    "path": "cat.jpg",
+    "class": "cat-error",
+    "alt": "error-image1"
+  },
+  "col2": {
+    "heading": "Seems like you have entered a wrong place.",
+    "subheading": "It’s time to go home! Follow the blazing torch.",
+    "error": {
+      "path": "error.jpg",
+      "class": "error-error",
+      "alt": "error-image2"
+    }
+  }
+}
