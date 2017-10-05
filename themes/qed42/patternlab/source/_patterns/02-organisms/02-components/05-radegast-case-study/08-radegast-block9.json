@@ -1,0 +1,17 @@
+{
+  "wireframe1": {
+    "path": "wireframe1.jpg",
+    "class": "wireframe1-radegast",
+    "alt": "radegast-image11"
+  },
+  "wireframe2": {
+    "path": "wireframe2.jpg",
+    "class": "wireframe2-radegast",
+    "alt": "radegast-image12"
+  },
+  "wireframe3": {
+    "path": "wireframe3.jpg",
+    "class": "wireframe3-radegast",
+    "alt": "radegast-image13"
+  }
+}

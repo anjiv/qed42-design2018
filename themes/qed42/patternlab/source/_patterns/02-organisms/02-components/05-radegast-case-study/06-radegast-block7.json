@@ -1,0 +1,12 @@
+{
+  "col1": {
+    "path": "radegast-board-image1.jpg",
+    "class": "board1-radegast",
+    "alt": "radegast-image9"
+  },
+  "col2": {
+    "path": "radegast-board-image2.jpg",
+    "class": "board2-radegast",
+    "alt": "radegast-image10"
+  }
+}

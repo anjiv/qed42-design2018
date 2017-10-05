@@ -1,0 +1,17 @@
+{
+  "development1": {
+    "path": "cms-training.jpg",
+    "class": "cms-training-radegast",
+    "alt": "radegast-image16"
+  },
+  "development2": {
+    "path": "migration.jpg",
+    "class": "migration-radegast",
+    "alt": "radegast-image17"
+  },
+  "development3": {
+    "path": "responsive.jpg",
+    "class": "responsive-radegast",
+    "alt": "radegast-image18"
+  }
+}

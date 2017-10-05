@@ -1,0 +1,12 @@
+{
+  "olddesign": {
+    "path": "olddesign.jpg",
+    "class": "olddesign-radegast",
+    "alt": "radegast-image14"
+  },
+  "newdesign": {
+    "path": "newdesign.jpg",
+    "class": "newdesign-radegast",
+    "alt": "radegast-image15"
+  }
+}

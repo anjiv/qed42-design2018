@@ -1,0 +1,31 @@
+{
+  "logos": [{
+    "path": "logo1.jpg",
+    "class": "logo1-radegast",
+    "alt": "radegast-image1"
+  },{
+    "path": "logo2.jpg",
+    "class": "logo2-radegast",
+    "alt": "radegast-image2"
+  },{
+    "path": "logo3.jpg",
+    "class": "logo3-radegast",
+    "alt": "radegast-image3"
+  },{
+    "path": "logo4.jpg",
+    "class": "logo4-radegast",
+    "alt": "radegast-image4"
+  },{
+    "path": "logo5.jpg",
+    "class": "logo5-radegast",
+    "alt": "radegast-image5"
+  },{
+    "path": "logo6.jpg",
+    "class": "logo6-radegast",
+    "alt": "radegast-image6"
+  },{
+    "path": "logo7.jpg",
+    "class": "logo7-radegast",
+    "alt": "radegast-image7"
+  }]
+}
