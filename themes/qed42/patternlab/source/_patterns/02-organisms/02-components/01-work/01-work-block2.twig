@@ -1,7 +1,7 @@
 {% extends "organisms-panel-2col-6-0" %}
 {% set panel_class = 'enhanced-sabmiller full-height' %}
-{% block col1 %}
-  <h3>{{col1.title}}</h3>
-  <p>{{col1.content}}</p>
-  {% include 'atoms-link' with col1.viewLink %}
-{% endblock %}
+  {% block col1 %}
+    <h3>{{col1.title}}</h3>
+    <p>{{col1.content}}</p>
+    {% include 'atoms-link' with col1.viewLink %}
+  {% endblock %}

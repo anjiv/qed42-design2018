@@ -1,17 +1,17 @@
 {% extends "organisms-panel-2col-5-5" %}
 {% set panel_class = 'project-goal full-height' %}
-{% block col1 %}
-  <h4>{{col1.title}}</h4>
-  <p>{{col1.content | raw }}</p>
-{% endblock %}
-{% block col2 %}
-  <h4>{{col2.title}}</h4>
-  <ul>
-    <li>Digitisation of field work data such as reports, resources, publications.</li>
-    <li>Planning and follow up on engagements like workshops, school visits etc</li>
-    <li>One Dashboard to filter and retrieve all field work data.</li>
-    <li>Granular access for data upload as per existing org structure, location and role sensitive.</li>
-  </ul>
-{% endblock %}
+  {% block col1 %}
+    <h4>{{col1.title}}</h4>
+    <p>{{col1.content | raw }}</p>
+  {% endblock %}
+  {% block col2 %}
+    <h4>{{col2.title}}</h4>
+    <ul>
+      <li>Digitisation of field work data such as reports, resources, publications.</li>
+      <li>Planning and follow up on engagements like workshops, school visits etc</li>
+      <li>One Dashboard to filter and retrieve all field work data.</li>
+      <li>Granular access for data upload as per existing org structure, location and role sensitive.</li>
+    </ul>
+  {% endblock %}
 
 

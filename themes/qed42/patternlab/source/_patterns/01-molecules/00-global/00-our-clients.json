@@ -1,51 +1,51 @@
 {
-    "clients": [{
-      "path": "url1.jpg",
-      "class": "client-logo",
-      "alt": "client-image1"
-    },{
-      "path": "url2.jpg",
-      "class": "client-logo",
-      "alt": "client-image2"
-    },{
-      "path": "url3.jpg",
-      "class": "client-logo",
-      "alt": "client-image3"
-    },{
-      "path": "url4.jpg",
-      "class": "client-logo",
-      "alt": "client-image4"
-    },{
-      "path": "url5.jpg",
-      "class": "client-logo",
-      "alt": "client-image5"
-    },{
-      "path": "url6.jpg",
-      "class": "client-logo",
-      "alt": "client-image6"
-    },{
-      "path": "url7.jpg",
-      "class": "client-logo",
-      "alt": "client-image7"
-    },{
-      "path": "url8.jpg",
-      "class": "client-logo",
-      "alt": "client-image8"
-    },{
-      "path": "url9.jpg",
-      "class": "client-logo",
-      "alt": "client-image9"
-    },{
-      "path": "url10.jpg",
-      "class": "client-logo",
-      "alt": "client-image10"
-    },{
-      "path": "url11.jpg",
-      "class": "client-logo",
-      "alt": "client-image11"
-    },{
-      "path": "url12.jpg",
-      "class": "client-logo",
-      "alt": "client-image12"
-    }]
+  "clients": [{
+    "path": "url1.jpg",
+    "class": "client-logo",
+    "alt": "client-image1"
+  },{
+    "path": "url2.jpg",
+    "class": "client-logo",
+    "alt": "client-image2"
+  },{
+    "path": "url3.jpg",
+    "class": "client-logo",
+    "alt": "client-image3"
+  },{
+    "path": "url4.jpg",
+    "class": "client-logo",
+    "alt": "client-image4"
+  },{
+    "path": "url5.jpg",
+    "class": "client-logo",
+    "alt": "client-image5"
+  },{
+    "path": "url6.jpg",
+    "class": "client-logo",
+    "alt": "client-image6"
+  },{
+    "path": "url7.jpg",
+    "class": "client-logo",
+    "alt": "client-image7"
+  },{
+    "path": "url8.jpg",
+    "class": "client-logo",
+    "alt": "client-image8"
+  },{
+    "path": "url9.jpg",
+    "class": "client-logo",
+    "alt": "client-image9"
+  },{
+    "path": "url10.jpg",
+    "class": "client-logo",
+    "alt": "client-image10"
+  },{
+    "path": "url11.jpg",
+    "class": "client-logo",
+    "alt": "client-image11"
+  },{
+    "path": "url12.jpg",
+    "class": "client-logo",
+    "alt": "client-image12"
+  }]
 }

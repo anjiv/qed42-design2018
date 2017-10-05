@@ -4,37 +4,37 @@
     "title": "Iconography",
     "content": "Special icons were designed to explain the work flow of Mohalla Clinic."
   },
-    "icons": [{
-      "path": "iconography1.jpg",
-      "class": "ico1-aamc",
-      "alt": "aamc-image4"
-    },{
-      "path": "iconography2.jpg",
-      "class": "ico2-aamc",
-      "alt": "aamc-image5"
-    },{
-      "path": "iconography3.jpg",
-      "class": "ico3-aamc",
-      "alt": "aamc-image6"
-    },{
-      "path": "iconography4.jpg",
-      "class": "ico4-aamc",
-      "alt": "aamc-image7"
-    },{
-      "path": "iconography5.jpg",
-      "class": "ico5-aamc",
-      "alt": "aamc-image8"
-    },{
-      "path": "iconography6.jpg",
-      "class": "ico6-aamc",
-      "alt": "aamc-image9"
-    },{
-      "path": "iconography7.jpg",
-      "class": "ico7-aamc",
-      "alt": "aamc-image10"
-    },{
-      "path": "iconography8.jpg",
-      "class": "ico8-aamc",
-      "alt": "aamc-image11"
-    }]
+  "icons": [{
+    "path": "iconography1.jpg",
+    "class": "ico1-aamc",
+    "alt": "aamc-image4"
+  },{
+    "path": "iconography2.jpg",
+    "class": "ico2-aamc",
+    "alt": "aamc-image5"
+  },{
+    "path": "iconography3.jpg",
+    "class": "ico3-aamc",
+    "alt": "aamc-image6"
+  },{
+    "path": "iconography4.jpg",
+    "class": "ico4-aamc",
+    "alt": "aamc-image7"
+  },{
+    "path": "iconography5.jpg",
+    "class": "ico5-aamc",
+    "alt": "aamc-image8"
+  },{
+    "path": "iconography6.jpg",
+    "class": "ico6-aamc",
+    "alt": "aamc-image9"
+  },{
+    "path": "iconography7.jpg",
+    "class": "ico7-aamc",
+    "alt": "aamc-image10"
+  },{
+    "path": "iconography8.jpg",
+    "class": "ico8-aamc",
+    "alt": "aamc-image11"
+  }]
 }

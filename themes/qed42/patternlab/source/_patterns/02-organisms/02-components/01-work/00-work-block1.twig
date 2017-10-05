@@ -1,10 +1,10 @@
 {% extends "organisms-panel-2col-5-5" %}
 {% set panel_class = 'us-election full-height' %}
-{% block col1 %}
-  <h3>{{col1.title}}</h3>
-  <p>{{col1.content}}</p>
-  {% include 'atoms-link' with col1.viewLink %}
-{% endblock %}
-{% block col2 %}
-  {% include 'atoms-image' with col2%}
-{% endblock %}
+  {% block col1 %}
+    <h3>{{col1.title}}</h3>
+    <p>{{col1.content}}</p>
+    {% include 'atoms-link' with col1.viewLink %}
+  {% endblock %}
+  {% block col2 %}
+    {% include 'atoms-image' with col2%}
+  {% endblock %}

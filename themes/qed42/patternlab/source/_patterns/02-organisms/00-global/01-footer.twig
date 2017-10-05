@@ -1,15 +1,15 @@
 <!-- Begin Footer -->
 <footer class="footer" role="contentinfo">
-    <div class="footer__section footer__section--section1">
-      <span class="copyright">{{copyrightText|raw}}</span>
-    </div>
-    <div class="footer__section footer__section--section2">
-      {% include "molecules-social-share" %}
-    </div>
-    <div class="footer__section footer__section--section3">
-      <span>{{contactNumber}}</span>
-      {% include "atoms-pipe-seperator" %}
-      {% include "atoms-link" with emailLink %}
-    </div>
+  <div class="footer__section footer__section--section1">
+    <span class="copyright">{{copyrightText|raw}}</span>
+  </div>
+  <div class="footer__section footer__section--section2">
+    {% include "molecules-social-share" %}
+  </div>
+  <div class="footer__section footer__section--section3">
+    <span>{{contactNumber}}</span>
+    {% include "atoms-pipe-seperator" %}
+    {% include "atoms-link" with emailLink %}
+  </div>
 </footer>
 <!-- End Footer -->

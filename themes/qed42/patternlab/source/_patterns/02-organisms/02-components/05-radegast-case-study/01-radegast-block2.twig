@@ -1,16 +1,16 @@
 {% extends "organisms-panel-3col-3-6-3" %}
 {% set panel_class = 'overview full-height' %}
-{% block col1 %}
-  <h3>{{col1.title}}</h3>
-{% endblock %}
-{% block col2 %}
-  <p>{{col2.content | raw}}</p>
-{% endblock %}
-{% block col3 %}
-  <h4>{{col3.title}}</h4>
-  <ul>
-    <li>User Interface Design</li>
-    <li>Consultancy</li>
-    <li>Development</li>
-  </ul>
-{% endblock %}
+  {% block col1 %}
+    <h3>{{col1.title}}</h3>
+  {% endblock %}
+  {% block col2 %}
+    <p>{{col2.content | raw}}</p>
+  {% endblock %}
+  {% block col3 %}
+    <h4>{{col3.title}}</h4>
+    <ul>
+      <li>User Interface Design</li>
+      <li>Consultancy</li>
+      <li>Development</li>
+    </ul>
+  {% endblock %}

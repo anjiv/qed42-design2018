@@ -1,14 +1,14 @@
 {% extends "organisms-panel-2col-3-7" %}
 {% set panel_class = 'iconography full-height' %}
-{% block col1 %}
-  <h2>{{col1.numbers}}</h2>
-  <h3>{{col1.title}}</h3>
-  <p>{{col1.content}}</p>
-{% endblock %}
-{% block col2 %}
-  {% for ico in icons %}
-    <div class="iconography-images">
-      {% include 'atoms-image' with ico %}
-   </div>
- {% endfor %}
-{% endblock %}
+  {% block col1 %}
+    <h2>{{col1.numbers}}</h2>
+    <h3>{{col1.title}}</h3>
+    <p>{{col1.content}}</p>
+  {% endblock %}
+  {% block col2 %}
+    {% for ico in icons %}
+      <div class="iconography-images">
+        {% include 'atoms-image' with ico %}
+      </div>
+    {% endfor %}
+  {% endblock %}

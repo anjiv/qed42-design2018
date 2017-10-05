@@ -1,9 +1,9 @@
 {% extends "organisms-panel-2col-6-4" %}
 {% set panel_class = 'enabling-educators full-height' %}
-{% block col1 %}
-  {% include 'atoms-image' with col1 %}
-{% endblock %}
-{% block col2 %}
-  <p>{{col2.content}}</p>
-  {% include 'atoms-link' with col2.intranetLink %}
-{% endblock %}
+  {% block col1 %}
+    {% include 'atoms-image' with col1 %}
+  {% endblock %}
+  {% block col2 %}
+    <p>{{col2.content}}</p>
+    {% include 'atoms-link' with col2.intranetLink %}
+  {% endblock %}

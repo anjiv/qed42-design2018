@@ -1,11 +1,11 @@
 {% extends "organisms-panel-2col-3-7" %}
 {% set panel_class = 'design-thinking full-height' %}
-{% block col1 %}
-  <h4>{{col1.title}}</h4>
-  <p>{{col1.content}}</p>
-{% endblock %}
-{% block col2 %}
-  {% include 'atoms-image' with col2 %}
-{% endblock %}
+  {% block col1 %}
+    <h4>{{col1.title}}</h4>
+    <p>{{col1.content}}</p>
+  {% endblock %}
+  {% block col2 %}
+    {% include 'atoms-image' with col2 %}
+  {% endblock %}
 
 
