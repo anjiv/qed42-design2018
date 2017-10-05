@@ -1,0 +1,14 @@
+{
+  "col1": {
+    "path": "mobile-drinkasaur.jpg",
+    "class": "mobile-drinkasaur",
+    "alt": "drinkasaur-image4"
+  },
+  "col2": {
+    "title": "EXPLORE DRINKASAUR",
+    "content": "An Interactive, Verified and Curated Listings Directory for Nightlife and Events in India.",
+    "subcontent": "Drinkasaur brings you filtered content of Nightlife, Pubs, Restaurants and Bars, Stores, Events & Festivities across India.",
+    "headline": "SERVICE PROVIDED",
+    "links": "Product Consultancy | Digital Strategy | App Design"
+  }
+}

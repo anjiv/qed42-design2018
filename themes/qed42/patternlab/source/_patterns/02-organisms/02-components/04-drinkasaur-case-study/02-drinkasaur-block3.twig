@@ -1,0 +1,9 @@
+{% extends "organisms-panel-2col-6-4" %}
+{% set panel_class = 'design-approach full-height' %}
+{% block col1 %}
+  <h3>{{col1.title}}</h3>
+  <p>{{col1.content}}</p>
+{% endblock %}
+{% block col2 %}
+  {% include 'atoms-image' with col2 %}
+{% endblock %}

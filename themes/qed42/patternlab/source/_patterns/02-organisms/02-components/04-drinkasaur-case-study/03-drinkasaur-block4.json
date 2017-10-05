@@ -1,0 +1,12 @@
+{
+  "col1": {
+    "path": "screenshot1.jpg",
+    "class": "screenshot1-drinkasaur",
+    "alt": "drinkasaur-image6"
+  },
+  "col2": {
+    "path": "screenshot2.jpg",
+    "class": "screenshot2-drinkasaur",
+    "alt": "drinkasaur-image7"
+  }
+}

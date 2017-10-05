@@ -1,0 +1,22 @@
+{
+  "screenshot1": {
+    "path": "mobile1.jpg",
+    "class": "mobile1-drinkasaur",
+    "alt": "drinkasaur-image8"
+  },
+  "screenshot2": {
+    "path": "mobile2.jpg",
+    "class": "mobile2-drinkasaur",
+    "alt": "drinkasaur-image9"
+  },
+  "screenshot3": {
+    "path": "mobile3.jpg",
+    "class": "mobile3-drinkasaur",
+    "alt": "drinkasaur-image10"
+  },
+  "screenshot4": {
+    "path": "mobile4.jpg",
+    "class": "mobile4-drinkasaur",
+    "alt": "drinkasaur-image11"
+  }
+}

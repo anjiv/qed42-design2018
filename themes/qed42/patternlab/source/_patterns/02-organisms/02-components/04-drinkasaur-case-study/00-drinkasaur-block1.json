@@ -1,0 +1,18 @@
+{
+  "title": "A unified design approach to </br> Drinkasaur App.",
+  "shot1": {
+    "path": "curated-content.jpg",
+    "class": "curated-content-drinkasaur",
+    "alt": "drinkasaur-image1"
+  },
+  "shot2": {
+    "path": "invite-friends.jpg",
+    "class": "invite-friends-drinkasaur",
+    "alt": "drinkasaur-image2"
+  },
+  "shot3": {
+    "path": "happy-hours.jpg",
+    "class": "happy-hours-drinkasaur",
+    "alt": "drinkasaur-image3"
+  }
+}

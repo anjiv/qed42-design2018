@@ -1,0 +1,11 @@
+{
+  "col1": {
+    "title": "DESIGN APROACH",
+    "content": "We were focused on expressing the Drinkasaur brand in a clean and simplistic manner. We took the unified design approach to achieve the same look and have the similar user experience across diffirent mobile platforms."
+  },
+    "col2": {
+      "path": "mobiles.json",
+      "class": "mobiles-drinkasaur",
+      "alt": "drinkasaur-image5"
+    }
+}
