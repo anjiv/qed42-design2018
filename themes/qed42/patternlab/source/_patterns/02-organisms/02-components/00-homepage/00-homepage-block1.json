@@ -1,4 +1,9 @@
 {
-  "title": "Taking Digital <span class='red'>Forward</span>",
-  "subtitle": "CRAFTING DIGITAL EXPERIENCES USING DESIGN THINKING & OPEN SOURCE."
+  "title": "Taking Digital </br><span class='red'>Forward</span>",
+  "subtitle": "CRAFTING DIGITAL EXPERIENCES USING DESIGN THINKING & OPEN SOURCE.",
+  "image": {
+    "path": "mouse.svg",
+    "class": "mouse-homepage",
+    "alt": "homepage-image1"
+  }
 }
