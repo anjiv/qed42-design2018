@@ -1,0 +1,17 @@
+.our-clients{
+  background-color: #eeece9;
+  .pane-col1{
+    padding: 40px;
+    .clients-logo__wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      .clients-logo{
+        flex-basis: 33.333333%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

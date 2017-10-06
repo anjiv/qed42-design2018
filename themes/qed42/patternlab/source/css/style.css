@@ -1,11 +1,3 @@
-/*------------------------------------*    $MIXINS
-\*------------------------------------*/
-/* CSS Transition
-	Usage: @include transition(width,0.3s,ease-out);
- */
-/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
-	Usage: @include font-size(1, large);
-*/
 /*------------------------------------*    $RESET
 \*------------------------------------*/
 /* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -46,7 +38,61 @@ header, footer, nav, section, article, hgroup, figure {
     .panel-col.panel-col-3--3-3-3 .pane-col {
       -webkit-box-flex: 1;
       -ms-flex: 1;
-      flex: 1; }
+      flex: 1;
+      -ms-flex-preferred-size: 33.333333%;
+      flex-basis: 33.333333%; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px 5px; }
+  .header__section--section1 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+    .header__section--section1 a {
+      display: block;
+      padding: 5px;
+      padding-bottom: 0px; }
+      .header__section--section1 a img {
+        width: 150px;
+        height: auto; }
+  .header__section--section2 {
+    display: inline-block;
+    padding: 10px 20px 10px 50px;
+    background: url(../images/message-icon.svg) 5px 50% no-repeat;
+    background-size: 30px;
+    margin-right: 50px; }
+    .header__section--section2 a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold; }
+  .header__section--section3 {
+    padding: 5px; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 20px 0; }
+  .footer__section--section1 .red {
+    color: red; }
+  .footer__section--section2 ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer__section--section2 ul li {
+      padding: 0 20px; }
+  .footer__section--section3 a {
+    text-decoration: none;
+    color: #dd0031; }
 
 .taking-digital-forward {
   background: #000;
@@ -77,7 +123,7 @@ header, footer, nav, section, article, hgroup, figure {
   .taking-digital-forward__image {
     position: absolute;
     width: 20px;
-    bottom: 20px;
+    bottom: 34px;
     left: calc(50% - 10px); }
     .taking-digital-forward__image img {
       width: 100%;
@@ -86,19 +132,154 @@ header, footer, nav, section, article, hgroup, figure {
     font-size: 80px;
     color: #dd0031; }
 
-.drupal-experts .pane-col1 {
+.drupal-experts {
+  background: url(../images/drupal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .drupal-experts .pane-col1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 70px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .drupal-experts .pane-col1 h3 {
+      color: #fff;
+      font-size: 23px;
+      margin-bottom: 30px; }
+    .drupal-experts .pane-col1 p {
+      width: 60%;
+      line-height: 29px;
+      color: #fff;
+      margin-bottom: 30px; }
+    .drupal-experts .pane-col1 a {
+      text-decoration: none;
+      color: #fff; }
+
+.design-thinking .pane-col1,
+.design-thinking .pane-col3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0 40px 40px 40px; }
+  .design-thinking .pane-col1 h3,
+  .design-thinking .pane-col3 h3 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 26px; }
+  .design-thinking .pane-col1 p,
+  .design-thinking .pane-col3 p {
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff; }
+  .design-thinking .pane-col1 a,
+  .design-thinking .pane-col3 a {
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    color: #fff; }
+
+.design-thinking .pane-col1 {
+  background-image: url(../images/aamc.jpg); }
+
+.design-thinking .pane-col3 {
+  background-image: url(../images/sabmiller.jpg); }
+
+.design-thinking .pane-col2 {
+  background-color: #707582;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 40px 40px 40px; }
+  .design-thinking .pane-col2 h3 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 26px; }
+  .design-thinking .pane-col2 p {
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff; }
+  .design-thinking .pane-col2 a {
+    text-decoration: none;
+    color: #fff; }
+
+.our-clients {
+  background-color: #eeece9; }
+  .our-clients .pane-col1 {
+    padding: 40px; }
+    .our-clients .pane-col1 .clients-logo__wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .our-clients .pane-col1 .clients-logo__wrapper .clients-logo {
+        -ms-flex-preferred-size: 33.333333%;
+        flex-basis: 33.333333%;
+        padding: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+
+.happy-clients .pane-col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 140px 70px 0 70px; }
+  .happy-clients .pane-col1 h3 {
+    font-size: 34px; }
+  .happy-clients .pane-col1 a {
+    text-decoration: none;
+    color: #dd0031;
+    font-size: 33px; }
 
 /*# sourceMappingURL=style.css.map */

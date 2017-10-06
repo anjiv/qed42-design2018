@@ -1,8 +1,28 @@
 .drupal-experts {
+  background: url(../images/drupal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   .pane-col1 {
     display: flex;
+    padding: 0 70px;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
+    h3{
+      color: $white;
+      font-size: 23px;
+      margin-bottom:30px;
+    }
+    p{
+      width: 60%;
+      line-height: 29px;
+      color: $white;
+      margin-bottom: 30px;
+    }
+    a{
+      text-decoration: none;
+      color: $white;
+    }
   }
 }

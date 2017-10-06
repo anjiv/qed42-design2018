@@ -3,15 +3,21 @@
   {% block col1 %}
     <h3>{{col1.title}}</h3>
     <p>{{col1.content}}</p>
-    {% include 'atoms-link' with col1.viewLink %}
+    <div class="design-thinking__link">
+      {% include 'atoms-link' with col1.viewLink %}
+    </div>
   {% endblock %}
   {% block col2 %}
     <h3>{{col2.title}}</h3>
     <p>{{col2.content}}</p>
-    {% include 'atoms-link' with col2.check %}
+    <div class="design-thinking__link">
+      {% include 'atoms-link' with col2.check %}
+    </div>
   {% endblock %}
   {% block col3 %}
     <h3>{{col3.title}}</h3>
     <p>{{col3.content}}</p>
-    {% include 'atoms-link' with col3.viewLink %}
+    <div class="design-thinking__link">
+      {% include 'atoms-link' with col3.viewLink %}
+    </div>
   {% endblock %}

@@ -1,0 +1,27 @@
+.footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  &__section {
+    &--section1{
+      .red{
+        color: red;
+      }
+    }
+    &--section2 {
+      ul{
+        list-style: none;
+        display: flex;
+        li{
+          padding: 0 20px;
+        }
+      }
+    }
+    &--section3{
+      a{
+        text-decoration: none;
+        color: $red;
+      }
+    }
+  }
+}
