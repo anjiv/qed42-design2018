@@ -7,3 +7,9 @@ global-styling:
       js/scripts.js: {}
   dependencies:
     - core/jquery
+
+patternlab:
+  version: VERSION
+  css:
+    base:
+      patternlab/source/css/style.css: {}

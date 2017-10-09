@@ -1,8 +1,8 @@
 {% extends "organisms-panel-2col-5-5" %}
 {% set panel_class = 'built-with-drupal full-height' %}
   {% block col1 %}
-    {% include 'atoms-image' with drupal %}
-    {% include 'atoms-image' with amazon %}
+    {% include 'atoms-images' with drupal %}
+    {% include 'atoms-images' with amazon %}
   {% endblock %}
   {% block col2 %}
     <p>{{content | raw }}</p>

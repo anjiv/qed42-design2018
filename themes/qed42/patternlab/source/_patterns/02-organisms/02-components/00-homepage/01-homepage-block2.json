@@ -1,9 +1,4 @@
 {
-  "col1":{
-    "title": "Drupal Experts in India",
-    "content": "Our Digital journey started with Drupal as our primary tool to craft ambitious applications, together with Drupal we have delivered large projects for Nestle, SAB Miller, Warner Music Group, Novartis and many more.",
-    "viewLink": {
-      "text": "Check out our work on Drupal !"
-    }
-  }
+  "label": "Drupal Experts in India",
+  "content": "<p>Our Digital journey started with Drupal as our primary tool to craft ambitious applications, together with Drupal we have delivered large projects for Nestle, SAB Miller, Warner Music Group, Novartis and many more.</p><a href=\"#\">Checkout our work on drupal!</a>"
 }

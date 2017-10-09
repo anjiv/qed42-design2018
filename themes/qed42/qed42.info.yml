@@ -14,12 +14,24 @@ regions:
 
 libraries:
   - qed42/global-styling
+  - qed42/patternlab
 
 component-libraries:
-  qed42Lib:
+  atoms:
     paths:
-      - patternlab/source/_patterns
+      - patternlab/source/_patterns/00-atoms
+  molecules:
+    paths:
+      - patternlab/source/_patterns/01-molecules
+  organisms:
+    paths:
+      - patternlab/source/_patterns/02-organisms
+  layouts:
+    paths:
+      - patternlab/source/_patterns/03-templates
+  pages:
+    paths:
+      - patternlab/source/_patterns/04-pages
 
 core: '8.x'
-project: 'drupal'
-datestamp: 1493834648
+

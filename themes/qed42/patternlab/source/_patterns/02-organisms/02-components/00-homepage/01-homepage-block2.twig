@@ -1,9 +1,6 @@
-{% extends 'organisms-panel-2col-5-0' %}
+{% extends "@organisms/01-layout/05-panel-2col-5-0.twig" %}
 {% set panel_class = 'drupal-experts full-height' %}
   {% block col1 %}
-    <h3>{{col1.title}}</h3>
-    <p>
-      {{col1.content}}
-    </p>
-    {% include 'atoms-link' with col1.viewLink %}
+    <h3>{{title}}</h3>
+    {{content| raw}}
   {% endblock %}

@@ -1,10 +1,10 @@
 {% extends "organisms-panel-2col-5-5" %}
 {% set panel_class = 'error-page full-height' %}
   {% block col1 %}
-    {% include 'atoms-image' with col1 %}
+    {% include 'atoms-images' with col1 %}
   {% endblock %}
   {% block col2 %}
-    {% include 'atoms-image' with col2.error %}
+    {% include 'atoms-images' with col2.error %}
     <h3>{{col2.heading}}</h3>
     <h3>{{col2.subheading}}</h3>
   {% endblock %}
