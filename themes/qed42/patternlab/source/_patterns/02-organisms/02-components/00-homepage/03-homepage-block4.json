@@ -1,0 +1,9 @@
+{
+  "content": {
+    "join()": [{
+      "include()": {
+        "pattern": "molecules-our-clients"
+      }
+    }]
+  }
+}

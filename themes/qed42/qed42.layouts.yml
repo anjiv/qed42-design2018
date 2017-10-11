@@ -1,0 +1,11 @@
+panel_3col_3_3_3:
+  label: Panel 3 Column 3/3/3
+  category: Panel 3
+  template: patternlab/source/_patterns/02-organisms/01-layout/01-panel-3col-3-3-3
+  regions:
+    left:
+      label: Left
+    middle:
+      label: Middle
+    right:
+      label: Right
