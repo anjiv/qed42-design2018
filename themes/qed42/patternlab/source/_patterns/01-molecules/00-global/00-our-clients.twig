@@ -1,7 +1,8 @@
 <div class="clients-logo__wrapper">
   {% for client in clients %}
     <div class="clients-logo">
-      {% include 'atoms-images' with client %}
+      {{client.content | raw}}
     </div>
   {% endfor %}
 </div>
+

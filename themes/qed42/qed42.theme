@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Basic theme files for qed42 theme.
+ */
+
+/**
+ * Implements template_preprocess_views_view_unformatted()
+ */
+
+function qed42_preprocess_views_view_unformatted(&$variables){
+  // @todo: load block for only case study view
+  $uuid = '45d44ce1-0ca1-497e-a8a2-eff68de36db8';
+  //Loading entity using uuid
+  $entity = \Drupal::entityManager()->loadEntityByUuid('block_content', $uuid);
+  //Building block using viewbuilder
+  $variables['myblock'] = \Drupal::entityTypeManager()
+  ->getViewBuilder('block_content')
+  ->view($entity);
+}
+
+/**
+ * Implements template_preprocess_region()
+ */
+
+function qed42_preprocess_region(&$variables){
+  // @todo: load only for footer region
+  if($variables['region']=='footer'){
+    $uuid = '444c548b-3d42-4963-a72b-7b7bbd392244';
+  //Loading entity using uuid
+    $entity = \Drupal::entityManager()->loadEntityByUuid('block_content', $uuid);
+  //Building block using viewbuilder
+    $variables['copyrightText'] = \Drupal::entityTypeManager()
+    ->getViewBuilder('block_content')
+    ->view($entity);
+
+    $uuid = 'ebc2ef13-3a58-4e4c-86c4-e18645a50b50';
+  //Loading entity using uuid
+    $entity = \Drupal::entityManager()->loadEntityByUuid('block_content', $uuid);
+  //Building block using viewbuilder
+    $variables['helpText'] = \Drupal::entityTypeManager()
+    ->getViewBuilder('block_content')
+    ->view($entity);
+
+    $block = \Drupal\block\Entity\Block::load('socialshare');
+    $variables['social'] = \Drupal::entityTypeManager()
+      ->getViewBuilder('block')
+      ->view($block);
+  }
+}

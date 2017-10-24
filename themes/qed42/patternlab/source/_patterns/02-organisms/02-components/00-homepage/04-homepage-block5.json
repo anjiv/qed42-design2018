@@ -1,8 +1,3 @@
 {
-  "col1":{
-    "title": "Countless Pixels Delivered",
-    "clients": {
-      "text": "Happy Clients"
-    }
-  }
+  "label": "<p>Countless Pixels Delivered <br/><span class=\"red\"> Happy Clients</span></p>"
 }

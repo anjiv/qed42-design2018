@@ -8,3 +8,33 @@
   width: 30px;
   height: 70px;
 }
+.socialshare--icon-1, .socialshare--icon-2, .socialshare--icon-3{
+  a {
+    display: inline-block;
+    background: url('../images/socialshares-sprites.png') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+  }
+}
+.socialshare--icon-1 {
+  a{
+    background-position: -10px -52px;
+    width: 8px;
+    height: 16px;
+  }
+}
+.socialshare--icon-2 {
+  a{
+    background-position: -10px -0px;
+    width: 19px;
+    height: 16px;
+  }
+}
+.socialshare--icon-3 {
+  a{
+    background-position: -10px -26px;
+    width: 16px;
+    height: 16px;
+}
+}

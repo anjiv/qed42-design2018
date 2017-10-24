@@ -1,8 +1,17 @@
 {
-  "block1": {
-    "url": "/contact",
-    "title": "Contact Us",
-    "class": "lets-talk",
-    "text": "Lets Talk"
+  "logo": {
+    "join()": [{
+      "include()": {
+        "pattern": "atoms-logo"
+      }
+    }]
+  },
+  "block1": "<a class=\"lets-talk\" href=\"/contact\" title=\"Contact Us\">Lets Talk</a>",
+  "hamburger": {
+    "join()": [{
+      "include()": {
+        "pattern": "atoms-hamburger"
+      }
+    }]
   }
 }

@@ -1,0 +1,45 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+
+{% set content1 = '' %}
+{% set content2 = '' %}
+{% set content3 = '' %}
+
+{% for row in rows %}
+  {% if loop.index == 1 %}
+    {% set content1 = row %}
+  {% endif %}
+  {% if loop.index == 2 %}
+    {% set content2 = myblock %}
+    {% set content3 = row %}
+  {% endif %}
+{% endfor %}
+
+{% include '@organisms/02-components/00-homepage/02-homepage-block3.twig'
+    with {
+      "col1": {
+        "content1": content1
+      },
+      "col2": {
+        "content2": content2
+      },
+      "col3": {
+        "content3": content3
+      }
+  }
+%}

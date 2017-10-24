@@ -2,6 +2,7 @@ name: qed42
 type: theme
 base theme: classy
 description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+core: '8.x'
 
 regions:
   header: Header
@@ -32,6 +33,3 @@ component-libraries:
   pages:
     paths:
       - patternlab/source/_patterns/04-pages
-
-core: '8.x'
-

@@ -1,23 +1,11 @@
-{% extends "organisms-panel-3col-3-3-3" %}
+{% extends "@organisms/01-layout/01-panel-3col-3-3-3.twig" %}
 {% set panel_class = 'design-thinking full-height' %}
   {% block col1 %}
-    <h3>{{col1.title}}</h3>
-    <p>{{col1.content}}</p>
-    <div class="design-thinking__link">
-      {% include 'atoms-link' with col1.viewLink %}
-    </div>
+    {{ content1 | raw }}
   {% endblock %}
   {% block col2 %}
-    <h3>{{col2.title}}</h3>
-    <p>{{col2.content}}</p>
-    <div class="design-thinking__link">
-      {% include 'atoms-link' with col2.check %}
-    </div>
+    {{ content2 | raw }}
   {% endblock %}
   {% block col3 %}
-    <h3>{{col3.title}}</h3>
-    <p>{{col3.content}}</p>
-    <div class="design-thinking__link">
-      {% include 'atoms-link' with col3.viewLink %}
-    </div>
+    {{ content3 | raw }}
   {% endblock %}

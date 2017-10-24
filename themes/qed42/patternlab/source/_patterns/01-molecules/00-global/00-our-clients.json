@@ -1,51 +1,159 @@
 {
   "clients": [{
-    "path": "url1.jpg",
-    "class": "client-logo",
-    "alt": "client-image1"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "acquia.png",
+            "class": "client-logo",
+            "alt": "client-image1"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url2.jpg",
-    "class": "client-logo",
-    "alt": "client-image2"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "mgm.png",
+            "class": "client-logo",
+            "alt": "client-image2"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url3.jpg",
-    "class": "client-logo",
-    "alt": "client-image3"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "novartis.png",
+            "class": "client-logo",
+            "alt": "client-image3"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url4.jpg",
-    "class": "client-logo",
-    "alt": "client-image4"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "tiss.png",
+            "class": "client-logo",
+            "alt": "client-image4"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url5.jpg",
-    "class": "client-logo",
-    "alt": "client-image5"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "warner.png",
+            "class": "client-logo",
+            "alt": "client-image5"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url6.jpg",
-    "class": "client-logo",
-    "alt": "client-image6"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "ubm.png",
+            "class": "client-logo",
+            "alt": "client-image6"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url7.jpg",
-    "class": "client-logo",
-    "alt": "client-image7"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "fila.png",
+            "class": "client-logo",
+            "alt": "client-image7"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url8.jpg",
-    "class": "client-logo",
-    "alt": "client-image8"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "hp.png",
+            "class": "client-logo",
+            "alt": "client-image8"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url9.jpg",
-    "class": "client-logo",
-    "alt": "client-image9"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "intel.png",
+            "class": "client-logo",
+            "alt": "client-image9"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url10.jpg",
-    "class": "client-logo",
-    "alt": "client-image10"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "nrdc.png",
+            "class": "client-logo",
+            "alt": "client-image10"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url11.jpg",
-    "class": "client-logo",
-    "alt": "client-image11"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "unitarian.png",
+            "class": "client-logo",
+            "alt": "client-image11"
+          }
+        }
+      }]
+    }
   },{
-    "path": "url12.jpg",
-    "class": "client-logo",
-    "alt": "client-image12"
+    "content": {
+      "join()": [{
+        "include()": {
+          "pattern": "atoms-images",
+          "with": {
+            "path": "stanford.png",
+            "class": "client-logo",
+            "alt": "client-image12"
+          }
+        }
+      }]
+    }
   }]
 }

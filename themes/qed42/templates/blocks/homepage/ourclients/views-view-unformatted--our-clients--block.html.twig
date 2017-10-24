@@ -15,6 +15,9 @@
  * @see template_preprocess_views_view_unformatted()
  */
 #}
-{% include '@molecules/00-global/00-our-clients.twig' with {
+
+{% include '@molecules/00-global/00-our-clients.twig'
+  with {
     "clients": rows
-  } %}
+  }
+%}

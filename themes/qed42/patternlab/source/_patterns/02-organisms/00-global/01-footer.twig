@@ -1,15 +1,27 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+  $variables['region'] === 'footer' */
+#}
 <!-- Begin Footer -->
 <footer class="footer" role="contentinfo">
   <div class="footer__section footer__section--section1">
-    <span class="copyright">{{copyrightText|raw}}</span>
+    <span class="copyright">{{ copyrightText | raw }}</span>
   </div>
   <div class="footer__section footer__section--section2">
-    {% include "molecules-social-share" %}
+    {{ social | raw }}
   </div>
   <div class="footer__section footer__section--section3">
-    <span>{{contactNumber}}</span>
-    {% include "atoms-pipe-seperator" %}
-    {% include "atoms-link" with emailLink %}
+    {{ helpText | raw }}
   </div>
 </footer>
 <!-- End Footer -->

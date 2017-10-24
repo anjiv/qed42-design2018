@@ -1,24 +1,48 @@
 {
-  "col1": {
-    "title": "Complete Design language for Aam Aadmi Mohalla Clinic",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit,",
-    "viewLink": {
-      "text": "VIEW CASE STUDY"
-    }
+  "content1": {
+    "join()": [{
+      "include()": {
+        "pattern": "molecules-design-thinking-typeA",
+        "with": {
+          "title":"Complete Design language for Aam Aadmi Mohalla Clinic",
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>",
+          "viewLink": {
+            "title": "VIEW CASE STUDY",
+            "url": "#"
+          }
+        }
+      }
+    }]
   },
-  "col2": {
-    "title": "Design Thinking",
-    "content": "A great Digital strategy requires Design thinking as the core guiding principle for its execution. Great Design improves conversions, brand perception, satisfaction and trust among your users. We have helped several companies build delightful user experiences.",
-    "check": {
-      "text": "Check out our Design Approach!"
-    }
+  "content2": {
+    "join()": [{
+      "include()": {
+        "pattern": "molecules-design-thinking-typeA",
+        "with": {
+          "title":"Design Thinking",
+          "content": "<p>A great Digital strategy requires Design thinking as the core guiding principle for its execution. Great Design improves conversions, brand perception, satisfaction and trust among your users. We have helped several companies build delightful user experiences.</p>",
+          "viewLink": {
+            "title": "Check out our Design Approach!",
+            "url": "#"
+          }
+        }
+      }
+    }]
   },
-  "col3": {
-    "title": "Enhanced 7 SAB Miller brands using Design & Drupal",
-    "content": "RADEGAST was one of the SAB projects where-in we took care of everything from design inception to delivery.",
-    "viewLink": {
-      "text": "VIEW CASE STUDY"
-    }
+  "content3": {
+    "join()": [{
+      "include()": {
+        "pattern": "molecules-design-thinking-typeA",
+        "with": {
+          "title":"Enhanced 7 SAB Miller brands using Design & Drupal",
+          "content": "<p>RADEGAST was one of the SAB projects where-in we took care of everything from design inception to delivery.</p>",
+          "viewLink": {
+            "title": "VIEW CASE STUDY",
+            "url": "#"
+          }
+        }
+      }
+    }]
   }
 }
 

@@ -1,24 +1,12 @@
 {
   "socialShares": [{
-    "url": "#",
-    "image": {
-      "class":"social-share-image fb",
-      "alt": "FB",
-      "path": "facebook-image.jpg"
-    }
+    "title": "Facebook",
+    "url": "https://www.facebook.com"
   },{
-    "url": "#",
-    "image": {
-      "class":"social-share-image tw",
-      "alt": "TW",
-      "path": "twitter-image.jpg"
-    }
+    "title": "Twitter",
+    "url": "https://www.facebook.com"
   },{
-    "url": "#",
-    "image": {
-      "class":"social-share-image in",
-      "alt": "IN",
-      "path": "instagram-image.jpg"
-    }
+    "title": "Instagram",
+    "url": "https://www.facebook.com"
   }]
 }

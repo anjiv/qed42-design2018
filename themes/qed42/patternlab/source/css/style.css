@@ -24,6 +24,28 @@ header, footer, nav, section, article, hgroup, figure {
   width: 30px;
   height: 70px; }
 
+.socialshare--icon-1 a, .socialshare--icon-2 a, .socialshare--icon-3 a {
+  display: inline-block;
+  background: url("../images/socialshares-sprites.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left; }
+
+.socialshare--icon-1 a {
+  background-position: -10px -52px;
+  width: 8px;
+  height: 16px; }
+
+.socialshare--icon-2 a {
+  background-position: -10px -0px;
+  width: 19px;
+  height: 16px; }
+
+.socialshare--icon-3 a {
+  background-position: -10px -26px;
+  width: 16px;
+  height: 16px; }
+
 .panel-col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,7 +111,7 @@ header, footer, nav, section, article, hgroup, figure {
   justify-content: space-around;
   padding: 20px 0; }
   .footer__section--section1 .red {
-    color: red; }
+    color: #dd0031; }
   .footer__section--section2 ul {
     list-style: none;
     display: -webkit-box;
@@ -97,6 +119,8 @@ header, footer, nav, section, article, hgroup, figure {
     display: flex; }
     .footer__section--section2 ul li {
       padding: 0 20px; }
+      .footer__section--section2 ul li img {
+        height: 40%; }
   .footer__section--section3 a {
     text-decoration: none;
     color: #dd0031; }
@@ -265,6 +289,9 @@ header, footer, nav, section, article, hgroup, figure {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center; }
+        .our-clients .pane-col1 .clients-logo__wrapper .clients-logo img {
+          width: 50%;
+          height: 60%; }
 
 .happy-clients .pane-col1 {
   display: -webkit-box;
@@ -280,10 +307,9 @@ header, footer, nav, section, article, hgroup, figure {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  padding: 140px 70px 0 70px; }
-  .happy-clients .pane-col1 h3 {
-    font-size: 34px; }
-  .happy-clients .pane-col1 a {
+  padding: 140px 70px 0 70px;
+  font-size: 34px; }
+  .happy-clients .pane-col1 .red {
     text-decoration: none;
     color: #dd0031;
     font-size: 33px; }

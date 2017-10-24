@@ -1,5 +1,5 @@
-{% extends "organisms-panel-2col-5-0" %}
+{% extends "@organisms/01-layout/05-panel-2col-5-0.twig" %}
 {% set panel_class = 'our-clients full-height' %}
   {% block col1 %}
-    {% include 'molecules-our-clients' %}
+    {{content | raw}}
   {% endblock %}

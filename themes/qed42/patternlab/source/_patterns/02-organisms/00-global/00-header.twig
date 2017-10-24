@@ -1,13 +1,13 @@
 <!-- Begin .header -->
 <header class="header cf" role="banner">
   <div class="header__section header__section--section1">
-   {% include "atoms-logo" %}
+   {{ logo | raw }}
   </div>
   <div class="header__section header__section--section2">
-    {% include "atoms-link" with block1 %}
+    {{ block1 | raw }}
   </div>
   <div class="header__section header__section--section3">
-    {% include "atoms-hamburger" %}
+    {{ hamburger | raw }}
   </div>
 </header>
 <!-- End .header -->

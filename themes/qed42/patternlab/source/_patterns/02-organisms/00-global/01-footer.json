@@ -1,10 +1,12 @@
 {
   "copyrightText": "Made with <span class='red'>&#9829;</span> using Drupal",
-  "contactNumber": "+91 231 123 2331",
-  "emailLink": {
-    "url": "mailto:dipen@qed42.com",
-    "title": "Email Us",
-    "class": "email-link",
-    "text": "dipen@qed42.com"
-  }
+  "social":{
+    "join()": [{
+      "include()": {
+        "pattern": "molecules-social-share"
+      }
+    }]
+  },
+  "helpText": "<span>+91 9812398123</span> | <a class=\"email-link\" href=\"mailto:dipen@qed42.com\" title=\"Email Us\">dipen@qed42.com</a>"
 }
+

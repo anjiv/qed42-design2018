@@ -1,7 +1,15 @@
 <div class="social-share">
-	<ul class="social-share-list">
+  <ul class="social-share-list">
     {% for socialShare in socialShares %}
-      <li>{% include 'atoms-link' with socialShare %}{% include 'atoms-images' with socialShare.image %}</a></li>
+      {%
+      set socialshareClass=
+      'socialshare--icon-'~loop.index
+      %}
+      <li class="{{socialshareClass}}" >
+        {{ link(socialShare.title, socialShare.url) }}
+      </li>
     {% endfor %}
   </ul>
 </div>
+
+
