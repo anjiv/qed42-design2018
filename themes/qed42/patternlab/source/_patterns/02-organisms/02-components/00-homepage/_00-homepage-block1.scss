@@ -12,10 +12,12 @@
     color: $white;
     font-weight: bold;
     text-align: center;
+    font-family: 'MuseoSans900';
   }
   &__subtitle {
     font-size: 14px;
     color: $white;
+    font-family: 'MuseoSans300';
   }
   &__image {
     position: absolute;

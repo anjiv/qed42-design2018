@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'MuseoSans300';
+  src: url("../fonts/MuseoSans/MuseoSans300/MuseoSans-300.woff2") format("woff2"), url("../fonts/MuseoSans/MuseoSans300/MuseoSans-300.woff") format("woff"); }
+
+@font-face {
+  font-family: 'MuseoSans700';
+  src: url("../fonts/MuseoSans/MuseoSans700/MuseoSans-700.woff2") format("woff2"), url("../fonts/MuseoSans/MuseoSans700/MuseoSans-700.woff") format("woff"); }
+
+@font-face {
+  font-family: 'MuseoSans900';
+  src: url("../fonts/MuseoSans/MuseoSans900/MuseoSans-900.woff2") format("woff2"), url("../fonts/MuseoSans/MuseoSans900/MuseoSans-900.woff") format("woff"); }
+
 /*------------------------------------*    $RESET
 \*------------------------------------*/
 /* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -55,6 +67,8 @@ header, footer, nav, section, article, hgroup, figure {
   -ms-flex-direction: row;
   flex-direction: row; }
   .panel-col.panel-col-2--5-0 .pane-col1 {
+    width: 50%; }
+  .panel-col.panel-col-2--5-5 .pane-col {
     width: 50%; }
   .panel-col.panel-col-3--3-3-3 {
     display: -webkit-box;
@@ -147,10 +161,12 @@ header, footer, nav, section, article, hgroup, figure {
     font-size: 80px;
     color: #fff;
     font-weight: bold;
-    text-align: center; }
+    text-align: center;
+    font-family: 'MuseoSans900'; }
   .taking-digital-forward__subtitle {
     font-size: 14px;
-    color: #fff; }
+    color: #fff;
+    font-family: 'MuseoSans300'; }
   .taking-digital-forward__image {
     position: absolute;
     bottom: 34px;
@@ -185,15 +201,18 @@ header, footer, nav, section, article, hgroup, figure {
     .drupal-experts .pane-col1 h3 {
       color: #fff;
       font-size: 23px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      font-family: 'MuseoSans700'; }
     .drupal-experts .pane-col1 p {
       width: 60%;
       line-height: 29px;
       color: #fff;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      font-family: 'MuseoSans300'; }
     .drupal-experts .pane-col1 a {
       text-decoration: none;
-      color: #fff; }
+      color: #fff;
+      font-family: 'MuseoSans300'; }
 
 .design-thinking .pane-col1,
 .design-thinking .pane-col3 {
@@ -218,18 +237,21 @@ header, footer, nav, section, article, hgroup, figure {
   .design-thinking .pane-col3 h3 {
     margin-bottom: 30px;
     color: #fff;
-    font-size: 26px; }
+    font-size: 26px;
+    font-family: 'MuseoSans900'; }
   .design-thinking .pane-col1 p,
   .design-thinking .pane-col3 p {
     margin-bottom: 30px;
     font-size: 17px;
     line-height: 22px;
-    color: #fff; }
+    color: #fff;
+    font-family: 'MuseoSans300'; }
   .design-thinking .pane-col1 a,
   .design-thinking .pane-col3 a {
     border-bottom: 1px solid white;
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    font-family: 'MuseoSans700'; }
 
 .design-thinking .pane-col1 {
   background-image: url(../images/aamc.jpg); }
@@ -256,15 +278,18 @@ header, footer, nav, section, article, hgroup, figure {
   .design-thinking .pane-col2 h3 {
     margin-bottom: 30px;
     color: #fff;
-    font-size: 26px; }
+    font-size: 26px;
+    font-family: 'MuseoSans900'; }
   .design-thinking .pane-col2 p {
     margin-bottom: 30px;
     font-size: 17px;
     line-height: 22px;
-    color: #fff; }
+    color: #fff;
+    font-family: 'MuseoSans300'; }
   .design-thinking .pane-col2 a {
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    font-family: 'MuseoSans700'; }
 
 .our-clients {
   background-color: #eeece9; }
@@ -277,6 +302,7 @@ header, footer, nav, section, article, hgroup, figure {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
       .our-clients .pane-col1 .clients-logo__wrapper .clients-logo {
+        width: 33.333333%;
         -ms-flex-preferred-size: 33.333333%;
         flex-basis: 33.333333%;
         padding: 15px;
@@ -290,8 +316,7 @@ header, footer, nav, section, article, hgroup, figure {
         -ms-flex-align: center;
         align-items: center; }
         .our-clients .pane-col1 .clients-logo__wrapper .clients-logo img {
-          width: 50%;
-          height: 60%; }
+          max-width: 100%; }
 
 .happy-clients .pane-col1 {
   display: -webkit-box;
@@ -308,10 +333,91 @@ header, footer, nav, section, article, hgroup, figure {
   -ms-flex-align: start;
   align-items: flex-start;
   padding: 140px 70px 0 70px;
-  font-size: 34px; }
+  font-size: 34px;
+  font-family: 'MuseoSans900'; }
   .happy-clients .pane-col1 .red {
     text-decoration: none;
     color: #dd0031;
-    font-size: 33px; }
+    font-size: 33px;
+    font-family: 'MuseoSans300'; }
+
+.us-election {
+  background-color: #fafafa; }
+  .us-election .pane-col1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 80px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .us-election .pane-col1 h3 {
+      width: 85%;
+      color: #2a3272;
+      font-size: 50px;
+      margin-bottom: 20px;
+      font-family: 'MuseoSans900'; }
+    .us-election .pane-col1 p {
+      width: 70%;
+      line-height: 29px;
+      color: #000;
+      margin-bottom: 40px;
+      font-size: 16px;
+      font-family: 'MuseoSans300'; }
+    .us-election .pane-col1 a {
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+      font-family: 'MuseoSans700'; }
+  .us-election .pane-col2 img {
+    width: 100%;
+    height: 100%; }
+
+.enhanced-sabmiller {
+  background: url(../images/bg_sabmiller.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .enhanced-sabmiller .pane-col1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 80px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .enhanced-sabmiller .pane-col1 h3 {
+      width: 60%;
+      color: #fff;
+      font-size: 50px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      font-family: 'MuseoSans900'; }
+    .enhanced-sabmiller .pane-col1 p {
+      width: 40%;
+      line-height: 29px;
+      color: #fff;
+      margin-bottom: 50px;
+      font-size: 16px;
+      font-family: 'MuseoSans300'; }
+    .enhanced-sabmiller .pane-col1 a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      font-family: 'MuseoSans700'; }
 
 /*# sourceMappingURL=style.css.map */

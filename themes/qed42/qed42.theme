@@ -48,4 +48,23 @@ function qed42_preprocess_region(&$variables){
       ->getViewBuilder('block')
       ->view($block);
   }
+  if($variables['region']=='header'){
+    $uuid = '5e8a5dad-e90a-4f13-8057-7be6cf16d6e1';
+  //Loading entity using uuid
+    $entity = \Drupal::entityManager()->loadEntityByUuid('block_content', $uuid);
+  //Building block using viewbuilder
+    $variables['block1'] = \Drupal::entityTypeManager()
+    ->getViewBuilder('block_content')
+    ->view($entity);
+
+    $block = \Drupal\block\Entity\Block::load('hamburger');
+    $variables['hamburger'] = \Drupal::entityTypeManager()
+      ->getViewBuilder('block')
+      ->view($block);
+
+    $block = \Drupal\block\Entity\Block::load('qed42_branding');
+    $variables['logo'] = \Drupal::entityTypeManager()
+      ->getViewBuilder('block')
+      ->view($block);
+  }
 }

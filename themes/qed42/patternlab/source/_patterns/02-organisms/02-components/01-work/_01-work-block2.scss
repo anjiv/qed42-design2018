@@ -1,31 +1,35 @@
-.drupal-experts {
-  background: url(../images/drupal.jpg);
+.enhanced-sabmiller {
+  background: url(../images/bg_sabmiller.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   .pane-col1 {
     display: flex;
-    padding: 0 70px;
+    padding: 0 80px;
     justify-content: center;
     align-items: left;
     flex-direction: column;
     h3{
+      width: 60%;
       color: $white;
-      font-size: 23px;
-      margin-bottom:30px;
-      font-family: 'MuseoSans700';
+      font-size: 50px;
+      margin-top: 60px;
+      margin-bottom:20px;
+      font-family: 'MuseoSans900';
     }
     p{
-      width: 60%;
+      width: 40%;
       line-height: 29px;
       color: $white;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
+      font-size: 16px;
       font-family: 'MuseoSans300';
     }
     a{
       text-decoration: none;
       color: $white;
-      font-family: 'MuseoSans300';
+      font-size: 14px;
+      font-family: 'MuseoSans700';
     }
   }
 }

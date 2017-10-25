@@ -2,7 +2,11 @@
   "logo": {
     "join()": [{
       "include()": {
-        "pattern": "atoms-logo"
+        "pattern": "atoms-logo",
+        "with": {
+          "link": "/themes/qed42/patternlab/public/?p=pages-homepage",
+          "path": "../../images/logo.png"
+        }
       }
     }]
   },
